@@ -1,31 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');
 
-body{
-    background-color: aliceblue;
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(187, 63, 217, 1) 100%, rgba(0, 212, 255, 1) 100%, rgba(2, 152, 219, 1) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 50px;
-    font-family:'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
-.app{
+.app {
     width: 400px;
     padding: 25px;
     color: #e5e5e5;
     border-radius: 10px;
-    box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.2);
-    background: linear-gradient(108deg,#821ea9,#7c43e0);
+    box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(108deg, #821ea9, #7c43e0);
 }
-.app h1{
+
+.app h1 {
     text-align: center;
     font-size: 24px;
     font-weight: 400;
 }
-.input-wrapper{
+
+.input-wrapper {
     display: flex;
 }
-.input-wrapper input{
+
+.input-wrapper input {
     width: 100%;
     padding: 5px 10px;
     height: 30px;
@@ -34,10 +38,12 @@ body{
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
-.input-wrapper input:focus{
+
+.input-wrapper input:focus {
     outline: none;
 }
-.input-wrapper button{
+
+.input-wrapper button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,62 +55,78 @@ body{
     cursor: pointer;
     width: 80px;
 }
-.content{
+
+.content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(262deg,rgba(0,0,0,0.1),rgba(0,0,0,0.4)) ;
+    background: linear-gradient(262deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4));
     margin-top: 10px;
     border-radius: 10px;
 }
-.d-flex{
+
+.d-flex {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.flex-c{
+
+.flex-c {
     flex-direction: column;
 }
-.location{margin-top: 20px;}
-.location h2{
+
+.location {
+    margin-top: 20px;
+}
+
+.location h2 {
     margin: 0;
     margin-left: 10px;
     font-weight: 300;
 }
-.location h2 span{
+
+.location h2 span {
     font-size: 14px;
 }
-.datetext{
+
+.datetext {
     font-size: 14px;
 }
-.weatherdesc h3{
+
+.weatherdesc h3 {
     margin: 0;
     text-transform: capitalize;
     font-weight: 400;
 }
-.tempstats{
+
+.tempstats {
     width: 100%;
     padding: 20px 0px;
 }
-.tempstats h1{
+
+.tempstats h1 {
     font-size: 64px;
     font-weight: 200;
     margin: 0;
 }
-.tempstats h1 span{
+
+.tempstats h1 span {
     font-size: 38px;
 }
-.tempstats h3{
+
+.tempstats h3 {
     font-weight: 400;
 }
-.windstats{
+
+.windstats {
     padding: 0px 20px;
-    background:rgba(0,0,0,0.3);
+    background: rgba(0, 0, 0, 0.3);
     margin-bottom: 20px;
     border-radius: 10px;
 }
-.windstats h3{
+
+.windstats h3 {
     margin-left: 10px;
     font-weight: 400;
 }
