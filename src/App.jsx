@@ -14,6 +14,12 @@ function App() {
     setCity("");
   };
 
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter") {
+      getWeatherbyCity();
+    }
+  };
+
   const renderDate = () => {
     let now = new Date();
     return dateFormat(now, "dddd, mmmm dS, h:MM TT");
@@ -27,6 +33,7 @@ function App() {
           type="text"
           value={city}
           onChange={(e) => setCity(e.target.value)}
+          onKeyDown={handleKeyDown}
           placeholder="Enter City Name"
         />
         <button onClick={() => getWeatherbyCity()}>
